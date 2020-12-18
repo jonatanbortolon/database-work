@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Data base I Homework
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## About
+
+Project showing the 2020's brazilian elections in a map for visualization.
 
 ## Available Scripts
 
