@@ -8387,7 +8387,7 @@ textarea {
   0% {
     transform: rotate(0deg);
   }
-  [data-progress='100'] {
+  100% {
     transform: rotate(1turn);
   }
 }
@@ -8584,7 +8584,7 @@ textarea {
   -webkit-line-clamp: 2;
   display: -webkit-box;
   font-size: var(--font-size-scale-up-01, 1.2);
-  font-weight: var(--700, 700);
+  font-weight: var(700, 700);
   margin: 0;
   max-height: var(--font-size-scale-up-07, 3.583);
   overflow: hidden;
@@ -11145,7 +11145,7 @@ textarea {
 }
 .br-input.br-datepicker:after {
   content: '\F073';
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   position: absolute;
   right: 25px;
   bottom: 3px;
@@ -13736,7 +13736,7 @@ html .buorg-icon {
 }
 .portal-redes .portalredes-item.portalredes-rss:before {
   content: '\F09E';
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 600;
 }
 .portal-redes .portalredes-item.portalredes-instagram:before {
@@ -14099,7 +14099,7 @@ header#site-header.has-navigation-dropdown
   li.dropdown-submenu
   > a:after {
   content: '\F054';
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   position: absolute;
   top: 12px;
   right: 8px;
@@ -14414,7 +14414,7 @@ header#site-header.has-navigation-dropdown
   .links-uteis
   li
   a:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F062';
   color: #2670e8;
   position: absolute;
@@ -15037,7 +15037,7 @@ header#site-header.has-navigation-swipe
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   color: #888;
   font-weight: 700;
   font-size: 2rem;
@@ -15084,7 +15084,7 @@ header#site-header.has-navigation-swipe
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   color: #888;
   font-weight: 700;
   font-size: 2rem;
@@ -16894,7 +16894,7 @@ a:link.link-category:hover {
 .toggle-link:before,
 .toggle:before {
   content: '\F078';
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   color: #1351b4;
   display: inline-block;
   font-size: 20px;
@@ -17187,7 +17187,7 @@ a:link.link-category:hover {
   width: 32px;
   height: 32px;
   content: '\F104';
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 700;
   background: transparent;
   color: #1351b4;
@@ -17494,7 +17494,7 @@ a:link.link-category:hover {
   .servicos-em-destaque
   .itens
   .list-item:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F062';
   color: #2670e8;
   position: absolute;
@@ -17862,7 +17862,7 @@ dl.portalMessage dd {
   padding: 0.5em 20px 0.5em 10px;
 }
 dl.portalMessage dd:before {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   font-weight: 900;
   color: #fff;
   margin-top: 4px;
@@ -18159,7 +18159,7 @@ dl.portalMessage.success dd:before {
   position: absolute;
   top: 0;
   left: 0;
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F071';
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18545,7 +18545,7 @@ dl.portalMessage.success dd:before {
   height: 27px;
 }
 .avaliacao-container .star:before {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F005';
   display: inline-block;
   font-weight: 900;
@@ -18594,7 +18594,7 @@ dl.portalMessage.success dd:before {
 .avaliacao-container .monitoracao:after {
   border-radius: 3px;
   margin-left: 8px;
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F681';
   display: inline-block;
   font-weight: 900;
@@ -19223,7 +19223,7 @@ dl.portalMessage.success dd:before {
   border: 0 none;
   color: #1351b4;
   content: '\F002';
-  font-family: Font Awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   font-size: 1.8rem;
   font-weight: 900;
   height: 28px;
@@ -19550,7 +19550,7 @@ body.sticky-header {
 }
 @media only screen and (max-width: 767px) {
   #portal-footer .list-navigation li.dropdown-submenu:after {
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 900;
     content: '\F078';
@@ -20031,7 +20031,7 @@ body.sticky-header {
 .portaltype-agenda #content .compromisso-local:before,
 .portaltype-agendadiaria #content .compromisso-local:before {
   background-image: none;
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F3C5';
   font-size: 20px;
   color: #1351b4;
@@ -20395,7 +20395,7 @@ body.sticky-header {
 }
 .portaltype-agenda #content .search-compromisso .LSBox:after,
 .portaltype-agendadiaria #content .search-compromisso .LSBox:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F002';
   font-size: 20px;
   color: #1351b4;
@@ -21408,7 +21408,7 @@ body.sticky-header {
     right: 30px;
     height: 24px;
     line-height: 24px;
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 700;
   }
@@ -21634,7 +21634,7 @@ body.sticky-header {
     left: 30px;
     height: 24px;
     line-height: 24px;
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 700;
   }
@@ -22134,7 +22134,7 @@ body.sticky-header {
     right: 30px;
     height: 24px;
     line-height: 24px;
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 700;
   }
@@ -22164,7 +22164,7 @@ body.sticky-header {
   right: 30px;
   height: 24px;
   line-height: 24px;
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   font-size: 14px;
   font-weight: 700;
 }
@@ -22970,7 +22970,7 @@ body.sticky-header {
     right: 30px;
     height: 24px;
     line-height: 24px;
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 700;
   }
@@ -23196,7 +23196,7 @@ body.sticky-header {
     left: 30px;
     height: 24px;
     line-height: 24px;
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 700;
   }
@@ -23696,7 +23696,7 @@ body.sticky-header {
     right: 30px;
     height: 24px;
     line-height: 24px;
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 700;
   }
@@ -23726,7 +23726,7 @@ body.sticky-header {
   right: 30px;
   height: 24px;
   line-height: 24px;
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   font-size: 14px;
   font-weight: 700;
 }
@@ -24293,7 +24293,7 @@ body.sticky-header {
 .template-template_atos_publicos .data-cadastro-ato-liberacao:before,
 .template-template_atos_publicos .prazo-aprovacao-tacita:before,
 .template-template_atos_publicos .tempo-medio-tramitacao:before {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F073';
   display: inline-block;
   font-size: 18px;
@@ -24357,7 +24357,7 @@ body.sticky-header {
 }
 .portaltype-atospublicos.template-view .atos-publicos-urls a span:before,
 .template-template_atos_publicos .atos-publicos-urls a span:before {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F0C1';
   display: inline-block;
   font-size: 18px;
@@ -24391,7 +24391,7 @@ body.sticky-header {
   a
   span:before,
 .template-template_atos_publicos .atos-publicos-arquivos ul li a span:before {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F1C1';
   display: inline-block;
   font-size: 18px;
@@ -27624,7 +27624,7 @@ body .ui-datepicker .ui-datepicker-current-day a {
   #content
   .busca-destaque-home
   .input-wrapper:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F002';
   position: absolute;
   top: 12px;
@@ -29495,7 +29495,7 @@ body .ui-datepicker .ui-datepicker-current-day a {
   bottom: 0;
   color: #1351b4;
   content: '\F073';
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   font-size: 2rem;
   font-weight: 900;
   pointer-events: none;
@@ -30267,7 +30267,7 @@ body.template-change-password input[type='submit'] {
 .template-busca #search-field .search-input-wrapper:after,
 .template-filtro-de-resultados #search-field .search-input-wrapper:after,
 .template-search #search-field .search-input-wrapper:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F002';
   color: #1351b4;
   position: absolute;
@@ -31133,7 +31133,7 @@ fieldset.noborder {
   text-decoration: none;
 }
 .template-search #search-results .container-filtros .toggle-filtros:before {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F1DE';
   display: inline-block;
   height: 20px;
@@ -31807,7 +31807,7 @@ fieldset.noborder {
 }
 .listagem-audios-institucional .audioItem .downloads a:before {
   content: '\F019';
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   color: #1351b4;
   display: inline-block;
   font-size: 18px;
@@ -31871,7 +31871,7 @@ fieldset.noborder {
   text-decoration: none !important;
 }
 .portaltype-servico .atos-relacionados li .link-ato-publico:before {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F15C';
   display: inline-block;
   font-size: 18px;
@@ -32893,7 +32893,7 @@ fieldset.noborder {
   margin-top: 5px;
 }
 #content .visao-servico .servico > li ol > li .apps li:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F062';
   color: #2670e8;
   position: absolute;
@@ -33599,7 +33599,7 @@ fieldset.noborder {
     left: 30px;
     height: 24px;
     line-height: 24px;
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 700;
   }
@@ -33786,7 +33786,7 @@ fieldset.noborder {
     right: 30px;
     height: 24px;
     line-height: 24px;
-    font-family: Font awesome\5 Free;
+    font-family: 'Font Awesome\ 5 Free';
     font-size: 14px;
     font-weight: 700;
   }
@@ -33800,7 +33800,7 @@ fieldset.noborder {
   right: 30px;
   height: 24px;
   line-height: 24px;
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   font-size: 14px;
   font-weight: 700;
 }
@@ -33910,7 +33910,7 @@ fieldset.noborder {
   position: relative;
 }
 .card-tema-alt .itens .list-item:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F062';
   color: #1351b4;
   position: absolute;
@@ -33976,7 +33976,7 @@ fieldset.noborder {
   text-align: left;
 }
 #main #content .temas.super-servicos .itens .list-item:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F062';
   color: #2670e8;
   position: absolute;
@@ -34234,7 +34234,7 @@ fieldset.noborder {
   margin-top: 5px;
 }
 .servicos-disponiveis .servico > li ol li .apps li:after {
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: '\F062';
   color: #2670e8;
   position: absolute;
@@ -36801,7 +36801,7 @@ html body.contraste #main-navigation .submenu .submenu {
   li
   span:before {
   content: '\F0C8';
-  font-family: Font awesome\5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   position: absolute;
   font-size: 18px;
   top: 0.8rem;

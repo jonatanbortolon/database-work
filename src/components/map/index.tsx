@@ -13,6 +13,7 @@ import { geoCentroid } from 'd3-geo';
 import ReactTooltip from 'react-tooltip';
 
 import BrazilTopoJson from '../../data/brazil.json';
+import result from '../../data/result';
 
 const offsets: { [key: string]: Array<number> } = {
   DF: [100, 0],
@@ -32,7 +33,10 @@ const App = () => {
     <div>
       <ReactTooltip>{content}</ReactTooltip>
       <ComposableMap
-        style={{ width: 'auto', height: window.innerHeight - 153 }}
+        style={{
+          width: window.innerWidth,
+          height: window.innerHeight - 153,
+        }}
         data-tip=""
         projectionConfig={{ scale: 650 }}>
         <ZoomableGroup zoom={1} maxZoom={3} center={[-65, -15]}>
@@ -40,52 +44,73 @@ const App = () => {
             {({ geographies }) =>
               geographies.map((geo) => {
                 const centroid = geoCentroid(geo);
+                const geoCode = JSON.parse(
+                  JSON.stringify(geo.properties.UF_05)
+                );
+                const geoName = geo.properties.NOME_UF;
 
                 return (
-                  <React.Fragment
-                    key={geo.properties.UF_05 + '-' + geo.properties.NOME_UF}>
+                  <React.Fragment key={geoCode + '-' + geoName}>
                     <Geography
                       key={geo.rsmKey}
                       geography={geo}
                       onMouseEnter={() => {
-                        setContent(`${geo.properties.NOME_UF}`);
+                        setContent(
+                          `${geoName}: ${result[geoCode].partido} ${
+                            result[geoCode].partido === 'PT'
+                              ? 'Haddad'
+                              : 'Bolsonaro'
+                          } - ${
+                            result[geoCode].percentage === 1
+                              ? '50-63%'
+                              : result[geoCode].percentage === 2
+                              ? '63-76%'
+                              : '76-90%'
+                          }`
+                        );
                       }}
                       onMouseLeave={() => {
                         setContent('');
                       }}
                       style={{
                         default: {
-                          fill: '#D6D6DA',
+                          fill:
+                            result.colors[result[geoCode].partido][
+                              result[geoCode].percentage - 1
+                            ],
                           outline: 'none',
-                          zIndex: -10,
                         },
                         hover: {
-                          fill: '#F53',
+                          fill:
+                            result.colors[result[geoCode].partido][
+                              result[geoCode].percentage - 1
+                            ],
                           outline: 'none',
-                          zIndex: -10,
                         },
                         pressed: {
-                          fill: '#E42',
+                          fill:
+                            result.colors[result[geoCode].partido][
+                              result[geoCode].percentage - 1
+                            ],
                           outline: 'none',
-                          zIndex: -10,
                         },
                       }}
                     />
-                    {offsets[geo.properties.UF_05] ? (
+                    {offsets[geoCode] ? (
                       <Annotation
                         connectorProps={{}}
                         subject={centroid}
-                        dx={offsets[geo.properties.UF_05][0]}
-                        dy={offsets[geo.properties.UF_05][1]}>
+                        dx={offsets[geoCode][0]}
+                        dy={offsets[geoCode][1]}>
                         <text x={4} fontSize={14} alignmentBaseline="middle">
-                          {geo.properties.UF_05}
+                          {geoCode}
                         </text>
                       </Annotation>
                     ) : (
                       <g key={geo.rsmKey + '-name'}>
                         <Marker coordinates={centroid}>
                           <text y="2" fontSize={15} textAnchor="middle">
-                            {geo.properties.UF_05}
+                            {geoCode}
                           </text>
                         </Marker>
                       </g>

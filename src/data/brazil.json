@@ -4965,7 +4965,7 @@
         "MICRO": "AMAPA",
         "MESO": "NORTE DO AMAPA",
         "REGIAO": "Norte",
-        "NOME_UF": "Amap�",
+        "NOME_UF": "Amapá",
         "GEOCODIGO": "16"
       },
       "geometry": {
@@ -9272,7 +9272,7 @@
         "MICRO": "BAIXO CURU",
         "MESO": "CENTRO-SUL CEARENSE",
         "REGIAO": "Nordeste",
-        "NOME_UF": "Cear�",
+        "NOME_UF": "Ceará",
         "GEOCODIGO": "23"
       },
       "geometry": {
@@ -10545,7 +10545,7 @@
         "MICRO": "AFONSO CLAUDIO",
         "MESO": "CENTRAL ESPIRITO-SANTENSE",
         "REGIAO": "Sudeste",
-        "NOME_UF": "Esp�rito Santo",
+        "NOME_UF": "Espírito Santo",
         "GEOCODIGO": "32"
       },
       "geometry": {
@@ -11798,7 +11798,7 @@
         "MICRO": "ANAPOLIS",
         "MESO": "CENTRO GOIANO",
         "REGIAO": "Centro-Oeste",
-        "NOME_UF": "Goi�s",
+        "NOME_UF": "Goiás",
         "GEOCODIGO": "52"
       },
       "geometry": {
@@ -15028,7 +15028,7 @@
         "MICRO": "AGLOMERACAO URBANA DE SAO LUIS",
         "MESO": "CENTRO MARANHENSE",
         "REGIAO": "Nordeste",
-        "NOME_UF": "Maranh�o",
+        "NOME_UF": "Maranhão",
         "GEOCODIGO": "21"
       },
       "geometry": {
@@ -28765,7 +28765,7 @@
         "MICRO": "ALMEIRIM",
         "MESO": "BAIXO AMAZONAS",
         "REGIAO": "Norte",
-        "NOME_UF": "Par�",
+        "NOME_UF": "Pará",
         "GEOCODIGO": "15"
       },
       "geometry": {
@@ -32567,7 +32567,7 @@
         "MICRO": "BREJO PARAIBANO",
         "MESO": "AGRESTE PARAIBANO",
         "REGIAO": "Nordeste",
-        "NOME_UF": "Para�ba",
+        "NOME_UF": "Paraíba",
         "GEOCODIGO": "25"
       },
       "geometry": {
@@ -35686,7 +35686,7 @@
         "MICRO": "ALTO MEDIO CANINDE",
         "MESO": "CENTRO-NORTE PIAUIENSE",
         "REGIAO": "Nordeste",
-        "NOME_UF": "Piau�",
+        "NOME_UF": "Piauí",
         "GEOCODIGO": "22"
       },
       "geometry": {
@@ -37469,7 +37469,7 @@
         "MICRO": "APUCARANA",
         "MESO": "CENTRO OCIDENTAL PARANAENSE",
         "REGIAO": "Sul",
-        "NOME_UF": "Paran�",
+        "NOME_UF": "Paraná",
         "GEOCODIGO": "41"
       },
       "geometry": {
@@ -42926,7 +42926,7 @@
         "MICRO": "ALVORADA D'OESTE",
         "MESO": "LESTE RONDONIENSE",
         "REGIAO": "Norte",
-        "NOME_UF": "Rond�nia",
+        "NOME_UF": "Rondônia",
         "GEOCODIGO": "11"
       },
       "geometry": {
@@ -52917,7 +52917,7 @@
         "MICRO": "ADAMANTINA",
         "MESO": "ARACATUBA",
         "REGIAO": "Sudeste",
-        "NOME_UF": "S�o Paulo",
+        "NOME_UF": "São Paulo",
         "GEOCODIGO": "35"
       },
       "geometry": {
