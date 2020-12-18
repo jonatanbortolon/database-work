@@ -19223,7 +19223,7 @@ dl.portalMessage.success dd:before {
   border: 0 none;
   color: #1351b4;
   content: '\F002';
-  font-family: Font Awesome\ 5 Free;
+  font-family: Font Awesome\5 Free;
   font-size: 1.8rem;
   font-weight: 900;
   height: 28px;
@@ -19276,7 +19276,7 @@ dl.portalMessage.success dd:before {
 @media only screen and (min-width: 768px) {
   #portal-searchbox .LSBox {
     border-radius: 6px;
-    left: calc(100vw - $spacing-3 - 56px);
+    left: calc(100vw - 56px);
     right: 16px;
     top: 16px;
   }
