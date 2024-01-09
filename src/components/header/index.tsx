@@ -1,6 +1,5 @@
-import React from 'react';
 
-const Header = () => {
+export function Header() {
   return (
     <header id="site-header" className="has-navigation-dropdown">
       <div className="header-wrapper secondary">
@@ -387,5 +386,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

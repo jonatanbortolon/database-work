@@ -1,11 +1,8 @@
-import React from 'react';
-
-import Header from './components/header';
-import Map from './components/map';
-
 import './App.css';
+import { Header } from './components/header';
+import { Map } from './components/map';
 
-const App = () => {
+export default function App() {
   return (
     <>
       <Header />
@@ -15,5 +12,3 @@ const App = () => {
     </>
   );
 };
-
-export default App;

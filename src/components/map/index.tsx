@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import {
+  Annotation,
   ComposableMap,
-  ZoomableGroup,
   Geographies,
   Geography,
-  Annotation,
   Marker,
+  ZoomableGroup,
 } from 'react-simple-maps';
 
 import { geoCentroid } from 'd3-geo';
 
-import ReactTooltip from 'react-tooltip';
+import { Tooltip as ReactTooltip } from 'react-tooltip';
 
 import BrazilTopoJson from '../../data/brazil.json';
 import result from '../../data/result';
@@ -26,18 +26,18 @@ const offsets: { [key: string]: Array<number> } = {
   RJ: [47, 10],
 };
 
-const App = () => {
+export function Map() {
   const [content, setContent] = useState('');
 
   return (
     <div>
-      <ReactTooltip>{content}</ReactTooltip>
+      <ReactTooltip anchorSelect=".anchor" place='top' content={content}/>
       <ComposableMap
+        className='anchor'
         style={{
           width: window.innerWidth,
           height: window.innerHeight - 153,
         }}
-        data-tip=""
         projectionConfig={{ scale: 650 }}>
         <ZoomableGroup zoom={1} maxZoom={3} center={[-65, -15]}>
           <Geographies geography={BrazilTopoJson}>
@@ -125,5 +125,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
